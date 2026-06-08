@@ -1,166 +1,143 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr" data-theme="light">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Yahyaoui Shop | Liens officiels</title>
-  <meta name="description" content="Yahyaoui Shop — Vente matériels photographiques, vidéo, audio et studio au Maroc." />
-  <meta name="theme-color" content="#f2f2f4" />
-  <link rel="icon" href="assets/logo.png" />
+  <meta name="description" content="Yahyaoui Shop — Vente de matériels photographiques, vidéo, audio, lighting et solutions studio au Maroc." />
+  <meta name="theme-color" content="#ed1c2a" />
+
+  <meta property="og:title" content="Yahyaoui Shop | Liens officiels" />
+  <meta property="og:description" content="Caméras, objectifs, audio, lighting, studio gear et conseils d'experts au Maroc." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/logo-yahyaouishop.png" />
+
+  <link rel="icon" href="assets/logo-yahyaouishop.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-  <div class="page-bg">
-    <div class="bg-line bg-line-1"></div>
-    <div class="bg-line bg-line-2"></div>
-  </div>
 
-  <main class="wrapper">
-    <section class="link-card">
-      <button class="theme-toggle" id="themeToggle" aria-label="Changer le thème">
-        <span class="toggle-icon">◐</span>
-        <span id="themeText">Dark</span>
+<body>
+  <div class="bg-shape bg-shape-1"></div>
+  <div class="bg-shape bg-shape-2"></div>
+
+  <main class="page">
+    <section class="phone-card" aria-label="Yahyaoui Shop links page">
+
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Changer le thème">
+        <span class="theme-dot"></span>
+        <span id="themeLabel">Dark</span>
       </button>
 
       <header class="hero">
-        <img
-          src="assets/logo.png"
-          data-light-src="assets/logo.png"
-          data-dark-src="assets/logo-dark.png"
-          alt="Logo Yahyaoui Shop"
-          class="brand-logo"
-          id="brandLogo"
-        />
-        <h1>Équipements audiovisuels & solutions studio au Maroc</h1>
-        <p class="hero-subtitle">
-          Caméras, objectifs, audio, éclairage, multi-cam, accessoires et conseils
-          pour créateurs, studios, entreprises et institutions.
+        <img class="brand-logo" src="assets/logo-yahyaouishop.png" alt="Yahyaoui Shop" />
+
+        <div class="red-line"></div>
+
+        <p class="intro">
+          Tout pour la photo, la vidéo et le son.<br />
+          Caméras, objectifs, audio, éclairage et équipements studio
+          avec des conseils d’experts pour créateurs et professionnels.
         </p>
-        <div class="divider-accent"></div>
       </header>
 
       <nav class="links" aria-label="Liens rapides">
-        <div class="availability-pill" aria-label="Disponible pour conseil et commande">
-          <span class="availability-dot"></span>
-          <span>Disponible pour conseil & commande</span>
-        </div>
-
-        <a href="https://yahyaouishop.com/" target="_blank" rel="noopener" class="link-item primary official-link">
-          <span class="link-copy">
-            <small>Site officiel</small>
-            <strong>Explorer la boutique</strong>
+        <a class="link link-primary" href="https://yahyaouishop.com/" target="_blank" rel="noopener">
+          <span class="icon icon-globe" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20a10 10 0 0 0 0-20Zm7.4 9h-3.1a15.8 15.8 0 0 0-1.1-5A8.05 8.05 0 0 1 19.4 11ZM12 4.1c.8 1.1 1.8 3.2 2.1 6.9H9.9c.3-3.7 1.3-5.8 2.1-6.9ZM4.6 13h3.1c.1 1.9.5 3.6 1.1 5A8.05 8.05 0 0 1 4.6 13Zm3.1-2H4.6A8.05 8.05 0 0 1 8.8 6c-.6 1.4-1 3.1-1.1 5ZM12 19.9c-.8-1.1-1.8-3.2-2.1-6.9h4.2c-.3 3.7-1.3 5.8-2.1 6.9Zm3.2-1.9c.6-1.4 1-3.1 1.1-5h3.1a8.05 8.05 0 0 1-4.2 5Z"/></svg>
           </span>
-          <span class="external-arrow" aria-hidden="true">&#8599;</span>
+          <span class="link-text">
+            <strong>Site officiel</strong>
+            <small>Explorer la boutique</small>
+          </span>
+          <span class="chevron">›</span>
         </a>
 
-        <a href="https://wa.me/212716010894?text=Bonjour%20Yahyaoui%20Shop%2C%20je%20veux%20un%20conseil%20pour%20un%20%C3%A9quipement%20audiovisuel" target="_blank" rel="noopener" class="link-item">
-          <span class="icon-circle whatsapp">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M20.5 3.5A10.9 10.9 0 003.3 16.7L2 22l5.4-1.3a10.9 10.9 0 0013.1-17.2ZM12 19.4a8.1 8.1 0 01-4-1.1l-.3-.2-3 .7.7-2.9-.2-.3A8.1 8.1 0 1112 19.4Zm4.5-6.1c-.2-.1-1.3-.6-1.5-.7-.2-.1-.4-.1-.5.1-.2.2-.6.7-.7.8-.1.2-.3.2-.5.1-.2-.1-1-.4-1.8-1.2-.7-.6-1.1-1.4-1.2-1.6-.1-.2 0-.3.1-.4l.3-.4.2-.4c.1-.1.1-.3 0-.4 0-.1-.5-1.2-.7-1.7-.2-.4-.3-.4-.5-.4h-.4c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.1.9 2.3c.1.1 1.6 2.5 4 3.5.6.3 1 .4 1.4.5.6.2 1.1.2 1.5.2.5-.1 1.3-.5 1.4-1 .2-.5.2-.9.1-1 0-.1-.2-.1-.4-.2Z"/>
-            </svg>
+        <a class="link" href="https://wa.me/212600000000?text=Bonjour%20Yahyaoui%20Shop%2C%20je%20veux%20un%20conseil%20pour%20un%20%C3%A9quipement%20audiovisuel" target="_blank" rel="noopener">
+          <span class="icon icon-whatsapp" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M20.5 3.5A11 11 0 0 0 3.2 16.8L2 22l5.3-1.2A11 11 0 0 0 20.5 3.5Zm-8.5 16a8.1 8.1 0 0 1-4.1-1.1l-.3-.2l-3.1.7l.7-3l-.2-.3A8.2 8.2 0 1 1 12 19.5Zm4.5-6.1c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.6.1c-.2.2-.7.8-.8 1c-.2.2-.3.2-.6.1c-.2-.1-1-.4-2-1.2c-.7-.7-1.2-1.5-1.4-1.7c-.1-.3 0-.4.1-.5l.4-.5c.1-.2.2-.3.3-.5c.1-.2 0-.4 0-.5c0-.1-.6-1.5-.8-2c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3c-.2.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.8 2.8 4.4 3.9c.6.3 1.1.4 1.5.5c.6.2 1.2.2 1.6.1c.5-.1 1.4-.6 1.6-1.1c.2-.6.2-1 .2-1.1c-.1-.2-.2-.2-.4-.3Z"/></svg>
           </span>
-          <span class="link-copy">
+          <span class="link-text">
             <strong>WhatsApp conseil</strong>
             <small>Demander un devis ou un produit</small>
           </span>
-          <span class="link-arrow" aria-hidden="true">&#8599;</span>
+          <span class="chevron">›</span>
         </a>
 
-        <a href="https://www.instagram.com/yahyaouishop.ma/" target="_blank" rel="noopener" class="link-item">
-          <span class="icon-circle instagram">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5Zm0 2a3 3 0 00-3 3v10a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3H7Zm5 3.8A5.2 5.2 0 1112 18.2 5.2 5.2 0 0112 7.8Zm0 2A3.2 3.2 0 1012 16.2 3.2 3.2 0 0012 9.8Zm5-3.2a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4Z"/>
-            </svg>
+        <a class="link" href="https://www.instagram.com/yahyaouishop.ma/" target="_blank" rel="noopener">
+          <span class="icon icon-instagram" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 4a4 4 0 1 1 0 8a4 4 0 0 1 0-8Zm0 2a2 2 0 1 0 0 4a2 2 0 0 0 0-4Zm5.3-2.7a1 1 0 1 1 0 2a1 1 0 0 1 0-2Z"/></svg>
           </span>
-          <span class="link-copy">
+          <span class="link-text">
             <strong>Instagram</strong>
             <small>Nouveautés, posts & stories</small>
           </span>
-          <span class="link-arrow" aria-hidden="true">&#8599;</span>
+          <span class="chevron">›</span>
         </a>
 
-        <a href="https://www.facebook.com/shopyahyaoui" target="_blank" rel="noopener" class="link-item">
-          <span class="icon-circle facebook">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.5 1.6-1.5h1.7V4.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.3v3h2.8v8h3.4Z"/>
-            </svg>
+        <a class="link" href="https://www.facebook.com/shopyahyaoui" target="_blank" rel="noopener">
+          <span class="icon icon-facebook" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.5 1.6-1.5h1.7V4.9c-.3 0-1.3-.1-2.5-.1c-2.5 0-4.2 1.5-4.2 4.3V11H7.3v3h2.8v8h3.4Z"/></svg>
           </span>
-          <span class="link-copy">
+          <span class="link-text">
             <strong>Facebook</strong>
             <small>Actualités & offres</small>
           </span>
-          <span class="link-arrow" aria-hidden="true">&#8599;</span>
+          <span class="chevron">›</span>
         </a>
 
-        <div class="section-separator">
-          <span class="line"></span>
-          <span class="dot"></span>
-          <span class="line"></span>
-        </div>
+        <div class="separator"><span></span></div>
 
-        <a href="https://yahyaouishop.com/product-category/cameras/" target="_blank" rel="noopener" class="link-item">
-          <span class="icon-circle outlined">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M9 4h6l1.7 2H20a2 2 0 012 2v9a2 2 0 01-2 2H4a2 2 0 01-2-2V8a2 2 0 012-2h3.3L9 4Zm3 4a4.5 4.5 0 100 9 4.5 4.5 0 000-9Zm0 2a2.5 2.5 0 110 5 2.5 2.5 0 010-5Z"/>
-            </svg>
+        <a class="link category" href="https://yahyaouishop.com/product-category/cameras/" target="_blank" rel="noopener">
+          <span class="icon icon-outline" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M9 4h6l1.6 2H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.4L9 4Zm3 4a4.5 4.5 0 1 0 0 9a4.5 4.5 0 0 0 0-9Zm0 2a2.5 2.5 0 1 1 0 5a2.5 2.5 0 0 1 0-5Z"/></svg>
           </span>
-          <span class="link-copy">
+          <span class="link-text">
             <strong>Caméras & objectifs</strong>
             <small>Boîtiers, lenses et accessoires</small>
           </span>
-          <span class="link-arrow" aria-hidden="true">&#8599;</span>
+          <span class="chevron">›</span>
         </a>
 
-        <a href="https://yahyaouishop.com/product-category/audio/" target="_blank" rel="noopener" class="link-item">
-          <span class="icon-circle outlined">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M12 14a3 3 0 003-3V5a3 3 0 10-6 0v6a3 3 0 003 3Zm5-3a5 5 0 01-10 0H5a7 7 0 006 6.9V21H8v2h8v-2h-3v-3.1A7 7 0 0019 11h-2Z"/>
-            </svg>
+        <a class="link category" href="https://yahyaouishop.com/product-category/audio/" target="_blank" rel="noopener">
+          <span class="icon icon-outline" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 14a3 3 0 0 0 3-3V5a3 3 0 1 0-6 0v6a3 3 0 0 0 3 3Zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.9V21H8v2h8v-2h-3v-3.1A7 7 0 0 0 19 11h-2Z"/></svg>
           </span>
-          <span class="link-copy">
+          <span class="link-text">
             <strong>Audio</strong>
             <small>Micros, recorders et son studio</small>
           </span>
-          <span class="link-arrow" aria-hidden="true">&#8599;</span>
+          <span class="chevron">›</span>
         </a>
 
-        <a href="https://yahyaouishop.com/product-category/lighting/" target="_blank" rel="noopener" class="link-item">
-          <span class="icon-circle outlined">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M8 3h8l2 8H6l2-8Zm3 10h2v4.1l4.2 3-1.1 1.7-4.1-2.9-4.1 2.9-1.1-1.7 4.2-3V13Z"/>
-            </svg>
+        <a class="link category" href="https://yahyaouishop.com/product-category/lighting/" target="_blank" rel="noopener">
+          <span class="icon icon-outline" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M8 3h8l2 9H6l2-9Zm3 11h2v3.2l4.4 3.1l-1.1 1.7L12 19l-4.3 3l-1.1-1.7l4.4-3.1V14Z"/></svg>
           </span>
-          <span class="link-copy">
+          <span class="link-text">
             <strong>Lighting & studio</strong>
             <small>Lumières, pieds et setups</small>
           </span>
-          <span class="link-arrow" aria-hidden="true">&#8599;</span>
+          <span class="chevron">›</span>
         </a>
       </nav>
 
-      <section class="benefits">
-        <div class="benefit-item">
-          <span class="benefit-icon">
-            <svg viewBox="0 0 24 24"><path d="M12 2l7 3v6c0 5-3.4 9.3-7 11-3.6-1.7-7-6-7-11V5l7-3Zm0 4.2L7 8.3v2.5c0 3.5 2.2 6.7 5 8.2 2.8-1.5 5-4.7 5-8.2V8.3l-5-2.1Z"/></svg>
-          </span>
+      <section class="benefits" aria-label="Avantages">
+        <div>
+          <span class="benefit-icon">✓</span>
           <p>Produits officiels<br />et garantis</p>
         </div>
-        <div class="benefit-item">
-          <span class="benefit-icon">
-            <svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 00-7 7v4a3 3 0 003 3h1v-6H7V9a5 5 0 0110 0v1h-2v6h1a3 3 0 003-3V9a7 7 0 00-7-7Zm-1 10v5a1 1 0 102 0v-5h-2Z"/></svg>
-          </span>
+        <div>
+          <span class="benefit-icon">♫</span>
           <p>Conseils d’experts<br />à votre écoute</p>
         </div>
-        <div class="benefit-item">
-          <span class="benefit-icon">
-            <svg viewBox="0 0 24 24"><path d="M3 6h11v8h2.5L19 11h2l2 3v5h-2a2 2 0 11-4 0H9a2 2 0 11-4 0H3V6Zm13 2v4h3.6L18.2 8H16Z"/></svg>
-          </span>
+        <div>
+          <span class="benefit-icon">↗</span>
           <p>Livraison rapide<br />partout au Maroc</p>
         </div>
       </section>
 
-      <footer class="footer-box">
-        <span class="quote-mark">“</span>
+      <footer class="footer">
+        <span class="quote">“</span>
         <p class="arabic">جودة، ثقة، احترافية.</p>
         <small>Votre partenaire de confiance pour vos projets audiovisuels.</small>
         <span class="heart">♥</span>

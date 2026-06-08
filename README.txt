@@ -1,28 +1,23 @@
-YAHYAOUI SHOP - VERSION DESIGN GÉNÉRÉ
+YAHYAOUI SHOP - Linktree Red Light/Dark
 ======================================
-
-Cette version garde le design proche des maquettes générées :
-- carte centrale arrondie
-- palette rouge
-- version Light + Dark
-- décor inspiré photo/studio
-- bouton switch thème
 
 Fichiers:
 - index.html
 - style.css
 - script.js
-- assets/logo.png
+- assets/logo-yahyaouishop.png
 
-À modifier:
-1) Dans index.html, remplace le numéro WhatsApp:
+Important:
+1. Remplace le numéro WhatsApp dans index.html:
    https://wa.me/212600000000
-   par ton vrai numéro.
+   par ton vrai numéro, exemple:
+   https://wa.me/212612345678
 
-2) Si tu veux mettre la page sur:
+2. Upload sur Hostinger:
+   hPanel > Websites > Manage > File Manager > public_html
+
+3. Pour la page:
    yahyaouishop.com/links
-   crée un dossier "links" dans public_html
-   puis upload tous les fichiers dedans.
+   Crée un dossier links dans public_html et mets ces fichiers dedans.
 
-Upload Hostinger:
-hPanel > Websites > Manage > File Manager > public_html
+4. Le bouton Dark/Light est déjà intégré.
