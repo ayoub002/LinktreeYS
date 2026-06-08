@@ -1,41 +1,23 @@
-YAHYAOUI SHOP - Linktree Page
-================================
+YAHYAOUI SHOP - Linktree Red Light/Dark
+======================================
 
 Fichiers:
 - index.html
 - style.css
 - script.js
-- assets/favicon.png placeholder
-- assets/cover.jpg placeholder
+- assets/logo-yahyaouishop.png
 
-Comment modifier:
-1. Ouvre index.html
-2. Remplace le numéro WhatsApp:
+Important:
+1. Remplace le numéro WhatsApp dans index.html:
    https://wa.me/212600000000
-   par ton vrai numéro en format international, exemple:
+   par ton vrai numéro, exemple:
    https://wa.me/212612345678
 
-3. Modifie les liens si nécessaire:
-   - site officiel
-   - Instagram
-   - Facebook
-   - catégories produits
+2. Upload sur Hostinger:
+   hPanel > Websites > Manage > File Manager > public_html
 
-4. Pour ajouter ton logo:
-   - Mets ton logo dans assets/logo.png
-   - Dans index.html, remplace:
-     <div class="logo-text">YS</div>
-   - Par:
-     <img src="assets/logo.png" alt="Yahyaouishop Logo" class="logo-img">
+3. Pour la page:
+   yahyaouishop.com/links
+   Crée un dossier links dans public_html et mets ces fichiers dedans.
 
-Installation sur Hostinger:
-1. Connecte-toi à hPanel Hostinger
-2. Va dans Websites > Manage
-3. Ouvre File Manager
-4. Va dans public_html
-5. Upload les fichiers index.html, style.css, script.js et le dossier assets
-6. Ton lien sera disponible sur ton domaine
-
-Si tu veux que la page soit sur:
-yahyaouishop.com/links
-Crée un dossier "links" dans public_html et mets les fichiers dedans.
+4. Le bouton Dark/Light est déjà intégré.
